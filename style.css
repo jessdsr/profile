@@ -25,7 +25,6 @@ body {
 
 .img_row img {
   height: 240px;
-  object-fit: cover;
 }
 
 h1 {
@@ -111,6 +110,9 @@ ul {
   .container {
     width: 500px;
   }
+  .img_row img {
+    height: 160px;
+  }
 }
 
 @media (max-width: 540px) {
@@ -118,5 +120,7 @@ ul {
   .container {
     width: 300px;
   }
+  .img_row img {
+    height: 100px;
+  }
 }
-
