@@ -1,0 +1,122 @@
+body {
+  background-color:#f0eee8;
+  font-family: 'Questrial', sans-serif;
+  text-align: center;
+  color: #263238;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.img {
+  object-fit: cover;
+  padding: 0px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  object-fit: cover;
+  width : 150px;
+  height : 150px;
+}
+
+.img_row {
+  display: flex;
+}
+
+.img_row img {
+  height: 240px;
+  object-fit: cover;
+}
+
+h1 {
+  font-family: 'Brygada 1918', serif;
+}
+
+h3 {
+  font-family: 'Brygada 1918', serif;
+}
+
+a {
+  text-decoration: none;
+  color: #423acd;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 35px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 10px;
+  font-size: 15px;
+}
+
+.btn-purple {
+  background-color: #423acd;
+  border-color: #423acd;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  text-align: center;
+}
+
+.btn-purple:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #423acd;
+  background-color: white;
+  color: #423acd;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+#footer {
+  padding: 5px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
